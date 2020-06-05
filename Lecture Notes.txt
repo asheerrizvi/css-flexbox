@@ -1,0 +1,22 @@
+Video 2: Introduction to Flexbox
+    display: flex; goes all the way and uses the entire page width.
+    display: inline-flex; just takes the amount of width needed.
+    The immediate children of the display: flex container makes the children flex items.
+
+Video 3: Working with Flexbox flex-direction
+    flex-direction: row; is the default for any flex container.
+    this means that they will stack beside each other in a row and span the height specified.
+    The main axis when flex-direction: row is from left to right. While the cross axis is from top to bottom.
+    The main axis when flex-direction: column is from top to bottom. While the cross axis is from left to right.
+    Similarly flow-direction: row-reverse and column-reverse work in an opposite manner.
+    
+Video 4: Wrapping elements with Flexbox
+    The flex items try to work with the width given but if it is not possible it distributes them with an equal width.
+    flex-wrap goes on the flex container. The default is nowrap
+    flex-wrap: wrap wraps the extra elements in a new line/row.
+    The height is automatically adjusted so as to maintain the splitting and occupying the height.
+    flex-wrap: wrap-reverse; The cross axis changes from top->bottom to bottom->top
+    margin is not part of the width, height etc when it comes to flex items and containers.
+    padding and border are part of the box model while margin is not.
+
+Video 5: Flexbox Ordering
