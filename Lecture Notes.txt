@@ -27,3 +27,8 @@ Video 5: Flexbox Ordering
     The only caveat is that it messes the mouse selector.
 
 Video 6: Flexbox Alignment and Centering with justify-content
+    Very Useful: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+    justify-content deals with the alignment of the items along the Main Axis.
+    flex-start is the default option.
+    flex-start, flex-end, center, space-between, space-around(also considers space on left and right), space-evenly
+    to take advantage of justify-content when the main axis is from top to bottom, we need to set a minimum height.
