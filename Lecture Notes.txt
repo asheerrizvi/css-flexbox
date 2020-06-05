@@ -39,3 +39,10 @@ Video 7: Alignment and Centering with align-items
     by default align-items is set to stretch, that means it stretches the items to the max height.
     other options include: flex-start, flex-end and baseline
     Baseline ensures that the bottom of every text within the container shares a common baseline and is therefore alined.
+    try with flex-direction: column also.
+
+Video 8: Alignment and Centering with align-content
+    align-content takes the same parameters as justify-content, it just works on the cross axis.
+    align-content only works if we have multiple lines of content.
+    align-content has a default option of stretch
+    align-content should also have items set to flex-wrap: wrap;
