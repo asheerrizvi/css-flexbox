@@ -20,3 +20,10 @@ Video 4: Wrapping elements with Flexbox
     padding and border are part of the box model while margin is not.
 
 Video 5: Flexbox Ordering
+    flex: 1; distributes every items equally.
+    order: 0; by default.
+    so any order numeral except 0 will put it at the end after all the order: 0; items.
+    order can have negative values also.
+    The only caveat is that it messes the mouse selector.
+
+Video 6: Flexbox Alignment and Centering with justify-content
