@@ -69,4 +69,7 @@ Video 11: Finally understanding Flexbox flex-grow, flex-shrink and flex-basis
 
 Video 12: How Flexbox's flex-basis and wrapping work together
     When flex-wrap: wrap; is enabled. flex-basis, flex-grow and flex-shrink work only on the they or the item they are on.
+
+Video 13: Pure Flexbox navigation code along
+    
     
