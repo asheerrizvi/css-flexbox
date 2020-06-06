@@ -25,6 +25,7 @@ Video 5: Flexbox Ordering
     so any order numeral except 0 will put it at the end after all the order: 0; items.
     order can have negative values also.
     The only caveat is that it messes the mouse selector.
+    order property goes on a flex item.
 
 Video 6: Flexbox Alignment and Centering with justify-content
     Very Useful: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
