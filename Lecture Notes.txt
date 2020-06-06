@@ -51,3 +51,8 @@ Video 9: Alignment and Centering with align-self
     align-self can be applied on an individual item.
     and it can override things defined using align-items.
     options can be flex-start, flex-end, center, baseline etc.
+
+Video 10. Understanding Flexbox sizing with the flex property
+    flex: is at what proportion should I (the element it is applied on)) should scale myself up and down if I have extra space or not enough space.
+    flex: 1; means that each of the items should divide the remaining space proportionally and should be of the same size.
+    flex: 2; when there is extra space or not enough space the width of box2 should be double the rest.
