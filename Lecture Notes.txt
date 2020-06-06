@@ -46,3 +46,8 @@ Video 8: Alignment and Centering with align-content
     align-content only works if we have multiple lines of content.
     align-content has a default option of stretch
     align-content should also have items set to flex-wrap: wrap;
+
+Video 9: Alignment and Centering with align-self
+    align-self can be applied on an individual item.
+    and it can override things defined using align-items.
+    options can be flex-start, flex-end, center, baseline etc.
