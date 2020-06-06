@@ -65,3 +65,8 @@ Video 11: Finally understanding Flexbox flex-grow, flex-shrink and flex-basis
     default flex-grow for any element is 0, meaning when there is extra space just don't do anything.
     the default for flex-shrink evenly divides the items amongst' themselves.
     flex-shrink: How much of myself (the item) should I shrink myself when the space is less.
+    flex: flex-grow flex-shrink flex-basis;
+
+Video 12: How Flexbox's flex-basis and wrapping work together
+    When flex-wrap: wrap; is enabled. flex-basis, flex-grow and flex-shrink work only on the they or the item they are on.
+    
