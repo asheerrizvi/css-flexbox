@@ -56,3 +56,12 @@ Video 10. Understanding Flexbox sizing with the flex property
     flex: is at what proportion should I (the element it is applied on)) should scale myself up and down if I have extra space or not enough space.
     flex: 1; means that each of the items should divide the remaining space proportionally and should be of the same size.
     flex: 2; when there is extra space or not enough space the width of box2 should be double the rest.
+
+Video 11: Finally understanding Flexbox flex-grow, flex-shrink and flex-basis
+    flex-grow:  When we have extra space how should we divide it amongs't everybody on the same line.
+    flex-shrink: How much of myself (the item) should I shrink myself when the space is less.
+    flex-basis: How high or wide an element should be before doing growing and shrinking.
+    flex: 1; is the shorthand for setting flex-grow to 1 and flex-shrink: 1;
+    default flex-grow for any element is 0, meaning when there is extra space just don't do anything.
+    the default for flex-shrink evenly divides the items amongst' themselves.
+    flex-shrink: How much of myself (the item) should I shrink myself when the space is less.
