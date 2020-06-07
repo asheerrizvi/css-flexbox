@@ -71,6 +71,17 @@ Video 11: Finally understanding Flexbox flex-grow, flex-shrink and flex-basis
 Video 12: How Flexbox's flex-basis and wrapping work together
     When flex-wrap: wrap; is enabled. flex-basis, flex-grow and flex-shrink work only on the they or the item they are on.
 
-Video 13: Pure Flexbox navigation code along
+Video 13: Cross Browser Flexbox Support and Autoprefixer!
+    autoprefixer.github.io
+    css-flexbox\autoprefixer\npm init --yes
+    css-flexbox\autoprefixer\npm install -g gulp-cli
+    css-flexbox\autoprefixer\touch gulpfile.js
+    css-flexbox\autoprefixer\npm install --save-dev gulp
+    css-flexbox\autoprefixer\npm install --save-dev gulp-autoprefixer
+    make a gulp task in gulpfile.js
+    add "browserslist": ["last 2 versions"] entry to package.json
+    run the gulp task
+    Add a watch task and convert the previous task to a function which can be passed to the watch task.
+    run the gulp watch command
     
     
